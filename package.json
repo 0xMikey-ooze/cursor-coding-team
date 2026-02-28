@@ -1,0 +1,36 @@
+{
+  "name": "cursor-coding-team",
+  "version": "1.0.0",
+  "description": "Agentic coding team powered by Cursor Cloud Agents API. Launch, orchestrate, and manage multiple Cursor background agents as a coordinated coding team.",
+  "type": "module",
+  "bin": {
+    "cursor-team": "./cursor-team.mjs"
+  },
+  "main": "./cursor-api.mjs",
+  "exports": {
+    ".": "./cursor-api.mjs",
+    "./team": "./cursor-team.mjs"
+  },
+  "files": [
+    "cursor-api.mjs",
+    "cursor-team.mjs",
+    "SKILL.md"
+  ],
+  "keywords": [
+    "cursor",
+    "cloud-agents",
+    "coding-team",
+    "openclaw",
+    "agentic",
+    "ai-agents",
+    "automation"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xMikey-ooze/cursor-coding-team.git"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
